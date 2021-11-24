@@ -1,0 +1,19 @@
+{
+    "Components": {
+        "Navbar": {},
+        "Home": {
+            "Title": "Anko Tenis"
+        },
+        "Card": {
+            "Title": "Learn Tenis !"
+        }
+    },
+    "General": {
+        "Construction": {
+            "Title": "Site web en construction !"
+        },
+        "Maintenance": {
+            "Title": "Site web en maintenance !"
+        }
+    }
+}
