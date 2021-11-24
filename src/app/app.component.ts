@@ -7,8 +7,6 @@ import { TranslateService } from '@ngx-translate/core';
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-    public title = 'anko-tenis';
-
     constructor(private _translate: TranslateService) {
         this._translate.setDefaultLang('fr');
     }

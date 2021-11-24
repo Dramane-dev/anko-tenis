@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "anko-tenis": {
+    "anko-tennis": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/anko-tenis",
+            "outputPath": "dist/anko-tennis",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "anko-tenis:build:production"
+              "browserTarget": "anko-tennis:build:production"
             },
             "development": {
-              "browserTarget": "anko-tenis:build:development"
+              "browserTarget": "anko-tennis:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "anko-tenis:build"
+            "browserTarget": "anko-tennis:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "anko-tenis"
+  "defaultProject": "anko-tennis"
 }

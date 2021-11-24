@@ -2,10 +2,10 @@
     "Components": {
         "Navbar": {},
         "Home": {
-            "Title": "Anko Tenis"
+            "Title": "Anko Tennis"
         },
         "Card": {
-            "Title": "Learn Tenis !"
+            "Title": "Learn Tennis !"
         }
     },
     "General": {
